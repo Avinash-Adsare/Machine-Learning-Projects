@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 
 def fetch_poster(movie_id):
-    respose = requests.get(url.format(movie_id))
+    respose = requests.get('https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US'.format(movie_id))
     data = respose.json()
     return "https://image.tmdb.orgg/t/p/w500" + data['poster_path']
 
