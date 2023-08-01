@@ -1,2 +1,3 @@
 # Machine-Learning-Projects
-ml projects
+-Bitcoin_Price_Prediction
+-movie-recommender-system
